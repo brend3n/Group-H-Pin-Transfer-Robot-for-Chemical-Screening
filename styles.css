@@ -1,0 +1,120 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+/* #ptr1 {
+    width: 1920px;
+    height: 1080px;
+} */
+
+#ptr1 {
+    width: 1280px;
+    height: 720px;
+}
+
+/* #ptr1 {
+    width: 720px;
+    height: 480px
+} */
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    line-height: 2;
+}
+
+.header {
+    margin: auto;
+}
+
+.groupWrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 480px;
+}
+
+.groupWrapper div {
+    margin: auto;
+    word-wrap: break=word;
+    width: 100%;
+    flex-grow: 100;
+}
+
+#initialDoc, #divideAndConquer {
+    height: 1080px;
+    width: 60%;
+    margin: auto;
+}
+
+#finalPresentationHeader, #cdrHeader {
+    margin: auto;
+    display: flex;
+}
+
+#finalPresentationHeader div, #cdrHeader div {
+    flex-grow: 100;
+}
+
+#conferencePaperHeader, #midtermDemoHeader {
+    margin:auto;
+}
+
+#cdr {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#cdr div {
+    margin: auto;
+    height: 480px;
+    width: 100%;
+}
+
+#sd2Documentation, #projectSummary, #sd1Documentation {
+    width: 60%;
+    height: 1080px;
+    margin: auto;
+}
+
+#projectSummary {
+    height: 1080px;
+}
+
+#finalPresentation {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#finalPresentation div {
+    margin: auto;
+    height: 480px;
+    width: 100%;
+}
+
+#finalPresentationDemo, #conferencePaper, #midtermDemo, #showcase {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 480px;
+}
+
+#conferencePaper {
+    height: 940px;
+}
